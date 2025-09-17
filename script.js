@@ -5,7 +5,6 @@ const leaderboardEl = document.getElementById('leaderboard');
 const statusEl = document.getElementById('status');
 let previousData = [];
 let isInitialLoad = true;
-
 async function fetchData() {
     try {
         const response = await fetch(API_URL);
